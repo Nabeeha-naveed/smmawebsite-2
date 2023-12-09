@@ -1,6 +1,8 @@
 import React from 'react'
 import "./footer.css"
 import footerLogo from "../../assets/Untitled_design-removebg-preview (2).png"
+
+
 export default function Footer() {
   return (
     <div className='footer'>
