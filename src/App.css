@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+/*                          CSS settings for diffrent screens 
+    @media screen and (max-width: 450px) {} ------------> MOBILE
+    @media screen and (max-width:768px) and (min-width: 451px) {} ------------> TABLET
+    @media screen and (max-width:1024px) and (min-width: 769px) {} ------------> LAPTOP
+    @media screen and (max-width:1366px) and (min-width: 1025px) {} ------------> DEKESTOP
+ */
