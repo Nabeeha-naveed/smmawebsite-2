@@ -1,11 +1,253 @@
 /* DEKESTOP */
-@media screen and (max-width:1366px) and (min-width: 1025px) {}
+@media screen and (max-width:1366px) and (min-width: 1025px) {
+  .Maincontact {
+    background-image: url("../../assets/contactBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 612px;
+  }
+
+  .contact-container {
+    color: white;
+    background: rgb(5, 5, 44);
+    margin: 0px 200px;
+    width: 900px;
+    padding: 80px 30px;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .contact-logo-head {
+    font-size: 40px;
+  }
+
+  .contact-left-text {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+
+  .left-contact-img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .contactLeftSVGS {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px;
+  }
+
+  .contact-right {
+    position: relative;
+    top: 0px;
+  }
+
+  .contact-right-head {
+    font-size: 40px;
+    padding: 0px 0;
+  }
+
+  .contact-right-container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 20px 0 5px 0;
+  }
+
+  .rightText {
+    font-size: 15px;
+  }
+}
 
 /* LAPTOP */
-@media screen and (max-width:1024px) and (min-width: 769px) {}
+@media screen and (max-width:1024px) and (min-width: 769px) {
+  .Maincontact {
+    background-image: url("../../assets/contactBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 530px;
+  }
+
+  .contact-container {
+    color: white;
+    background: rgb(5, 5, 44);
+    margin: 0px 134px;
+    width: 700px;
+    padding: 70px 30px;
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .contact-logo-head {
+    font-size: 35px;
+  }
+
+  .contact-left-text {
+    font-size: 13px;
+    padding: 10px 0;
+  }
+
+  .left-contact-img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .contactLeftSVGS {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px;
+  }
+
+  .contact-right {
+    position: relative;
+    top: 0px;
+  }
+
+  .contact-right-head {
+    font-size: 30px;
+    padding: 0px 0;
+  }
+
+  .contact-right-container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 20px 0 5px 0;
+  }
+
+  .rightText {
+    font-size: 12px;
+  }
+}
 
 /* TABLET */
-@media screen and (max-width:768px) and (min-width: 451px) {}
+@media screen and (max-width:768px) and (min-width: 451px) {
+  .Maincontact {
+    background-image: url("../../assets/contactBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 710px;
+  }
+
+  .contact-container {
+    color: white;
+    background: rgb(5, 5, 44);
+    margin: 0px 134px;
+    width: 430px;
+    padding: 60px 30px;
+    position: relative;
+    top: 90px;
+  }
+
+  .contact-logo-head {
+    font-size: 35px;
+  }
+
+  .contact-left-text {
+    font-size: 13px;
+    padding: 10px 0;
+  }
+
+  .left-contact-img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .contactLeftSVGS {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px;
+  }
+
+  .contact-right {
+    position: relative;
+    top: 30px;
+  }
+
+  .contact-right-head {
+    font-size: 30px;
+    padding: 20px 0;
+  }
+
+  .contact-right-container {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 20px 0 5px 0;
+  }
+
+  .rightText {
+    font-size: 12px;
+  }
+}
+
+
 
 /* MOBILE */
-@media screen and (max-width: 450px) {}
+@media screen and (max-width: 450px) {
+  .Maincontact{
+    background-image: url("../../assets/contactBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 710px;
+  }
+
+  .contact-container{
+    color: white;
+    background: rgb(5, 5, 44);
+    margin: 0px 55px;
+    width: 280px;
+    padding: 60px 30px;
+    position: relative;
+    top: 90px;
+  }
+
+  .contact-logo-head{
+    font-size: 35px;
+  }
+
+  .contact-left-text{
+    font-size: 13px;
+    padding: 10px 0;
+  }
+
+  .left-contact-img{
+    width: 25px;
+    height: 25px;
+  }
+
+  .contactLeftSVGS{
+    display: flex;
+    gap: 20px;
+    padding: 10px 0px;
+  }
+
+  .contact-right{
+    position: relative;
+    top: 30px;
+  }
+
+  .contact-right-head{
+    font-size: 30px;
+    padding: 20px 0;
+  }
+
+  .contact-right-container{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 20px 0 5px 0;
+  }
+
+  .rightText{
+    font-size: 12px;
+  }
+}

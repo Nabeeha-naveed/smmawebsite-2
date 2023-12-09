@@ -93,13 +93,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1480px;
+    height: 1430px;
   }
   .cards-img{
-    width: 290px;
+    width: 280px;
     height: 350px;
     border-radius: 15px;
-    margin: 60px 70px 20px 80px;
+    margin: 60px 84px 0px 84px;
   }
   .cards-title{
     font-size: 30px;
