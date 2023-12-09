@@ -1,0 +1,239 @@
+/* DEKESTOP */
+@media screen and (max-width:1366px) and (min-width: 1025px) {
+  .mainhero {
+    background-image: url("../../assets/hero.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 612px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+  }
+
+  .logo {
+    padding: 0px 30px;
+    font-size: 25px;
+  }
+
+  .list {
+    font-size: 25px;
+    display: flex;
+    list-style-type: none;
+  }
+
+  .listitems {
+    padding: 0px 30px;
+  }
+
+  .hero-title{
+    width: 400px;
+    font-size: 45px;
+    margin: 20px 80px;
+    position: relative;
+    top: 100px;
+  }
+
+  .hero-text{
+    font-size: 16px;
+    width: 400px;
+    margin: 30px 75px;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    top: 100px;
+  }
+
+  .btn{
+    font-size: 20px;
+    padding: 8px 40px;
+    border-radius: 25px;
+    border: none;
+    margin: 20px 100px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.616);
+    position: relative;
+    top: 100px;
+  }
+}
+
+/* LAPTOP */
+@media screen and (max-width:1024px) and (min-width: 769px) {
+  .mainhero {
+    background-image: url("../../assets/hero.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 480px;
+    }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+  }
+
+  .logo {
+    padding: 0px 15px;
+    font-size: 25px;
+  }
+
+  .list {
+    font-size: 25px;
+    display: flex;
+    list-style-type: none;
+  }
+
+  .listitems {
+    padding: 0px 15px;
+  }
+
+  .hero-title{
+    width: 380px;
+    font-size: 36px;
+    margin: 20px 60px;
+    position: relative;
+    top: 50px;
+  }
+
+  .hero-text{
+    font-size: 14px;
+    width: 400px;
+    margin: 30px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+  }
+
+  .btn{
+    font-size: 19px;
+    padding: 8px 30px;
+    border-radius: 25px;
+    border: none;
+    margin: 20px 80px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.616);
+    position: relative;
+    top: 50px;
+  }
+}
+
+/* TABLET */
+@media screen and (max-width:768px) and (min-width: 451px) {
+  .mainhero{
+    background-image: url("../../assets/hero.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 480px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    font-size: large;
+  }
+
+  .logo {
+    padding: 0px 15px;
+  }
+
+  .list {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .listitems {
+    padding: 0px 15px;
+  }
+
+  .hero-title{
+    width: 280px;
+    font-size: 32px;
+    margin: 20px 40px;
+    position: relative;
+    top: 50px;
+  }
+
+  .hero-text{
+    font-size: 14px;
+    width: 399px;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+  }
+
+  .btn{
+    font-size: 18px;
+    padding: 8px 30px;
+    border-radius: 25px;
+    border: none;
+    margin: 20px 60px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.616);
+    position: relative;
+    top: 50px;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 450px) {
+  .mainhero{
+    background-image: url("../../assets/hero.png");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 480px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+  }
+
+  .logo {
+    padding: 0px 15px;
+  }
+
+  .list {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .listitems {
+    padding: 0px 15px;
+  }
+
+  .hero-title{
+    width: 240px;
+    font-size: 27px;
+    margin: 20px 40px;
+    position: relative;
+    top: 50px;
+  }
+
+  .hero-text{
+    font-size: 13px;
+    width: 380px;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+  }
+
+  .btn{
+    font-size: 16px;
+    padding: 8px 30px;
+    border-radius: 25px;
+    border: none;
+    margin: 20px 50px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.616);
+    position: relative;
+    top: 50px;
+  }
+}

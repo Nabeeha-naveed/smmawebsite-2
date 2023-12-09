@@ -1,0 +1,111 @@
+/* DEKESTOP */
+@media screen and (max-width:1366px) and (min-width: 1025px) {
+  .main {
+    background-image: url("../../assets/contentBG2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    height: 612px;
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cards-img {
+    width: 300px;
+    height: 400px;
+    border-radius: 15px;
+    margin: 0 70px;
+    padding: 0;
+  }
+
+  .cards-title {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+  }
+}
+
+/* LAPTOP */
+@media screen and (max-width:1024px) and (min-width: 769px) {
+  .main {
+    background-image: url("../../assets/contentBG2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    display: flex;
+    flex-direction: row;
+    overflow:scroll;
+  }
+
+  .cards-img {
+    width: 260px;
+    height: 300px;
+    border-radius: 15px;
+    margin: 60px 40px 20px 40px;
+  }
+
+  .cards-title {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+  }
+}
+
+/* TABLET */
+@media screen and (max-width:768px) and (min-width: 451px) {
+  .main {
+    background-image: url("../../assets/contentBG2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1610px;       
+  }
+
+  .cards-img {
+    width: 410px;
+    height: 400px;
+    border-radius: 15px;
+    margin: 60px 179px 20px 179px;
+  }
+
+  .cards-title {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 450px) {
+  .main{
+    background-image: url("../../assets/contentBG2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1480px;
+  }
+  .cards-img{
+    width: 290px;
+    height: 350px;
+    border-radius: 15px;
+    margin: 60px 70px 20px 80px;
+  }
+  .cards-title{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+  }
+}
